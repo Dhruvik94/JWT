@@ -15,7 +15,7 @@ app.post("/token", (req, res) => {
     if (!refreshTokens.includes(refreshToken)) {
         return res.sendStatus(403)
     }
-    jwt.verify(refreshTokens, process.env.REFRESH_TOKEN_SECRET, (err, user) => {
+    jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, user) => {
         if (err) {
             return res.sendStatus(403)
 

@@ -6,7 +6,7 @@ DELETE http://localhost:4000/logout
 Content-Type: application/json
 
 {
-    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWtzaGF5IiwiaWF0IjoxNjI2MTg1NjQ4fQ.4MastAiNOfFUKb7XKFAM-I27CFbhXRJpsCkfBEEDDmk"
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWtzaGF5IiwiaWF0IjoxNjI2NzAxNTc5fQ.WeDGS8htQ5-0QdoXejfUcnJ3irQ8BzUlHMhfeHztZOw"
 }
 
 ###
@@ -15,7 +15,7 @@ POST http://localhost:4000/token
 Content-Type: application/json
 
 {
-    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWtzaGF5IiwiaWF0IjoxNjI2MTg1NjQ4fQ.4MastAiNOfFUKb7XKFAM-I27CFbhXRJpsCkfBEEDDmk"
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWtzaGF5IiwiaWF0IjoxNjI2NzAxNTc5fQ.WeDGS8htQ5-0QdoXejfUcnJ3irQ8BzUlHMhfeHztZOw"
 }
 
 ###
